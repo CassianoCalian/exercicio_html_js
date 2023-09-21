@@ -1,0 +1,29 @@
+body {
+  display: flex;
+  justify-content: center;
+}
+
+input,
+textarea,
+button {
+  display: block;
+  padding: 8px;
+  margin-bottom: 8px;
+  width: 100%;
+  resize: none;
+}
+
+button {
+  background-color: aqua;
+  border: none;
+  text-transform: uppercase;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+  font-style: italic;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgb(10, 163, 163);
+}
